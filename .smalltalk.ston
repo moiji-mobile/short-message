@@ -1,0 +1,13 @@
+SmalltalkCISpec {
+  #loading : [
+      SCIMetacelloLoadSpec {
+          #baseline : 'ShortMessage',
+          #directory : 'mc',
+          #platforms : [ #pharo ]
+      }
+  ],
+  #testing : {
+      #failOnZeroTests : false
+  }
+}
+

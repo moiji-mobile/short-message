@@ -2,7 +2,7 @@ SmalltalkCISpec {
   #loading : [
       SCIMetacelloLoadSpec {
           #baseline : 'ShortMessage',
-          #directory : 'mc',
+          #directory : 'source',
           #onConflict : #useLoaded,
           #platforms : [ #pharo ]
       }

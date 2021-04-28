@@ -10,7 +10,7 @@ BaselineOfShortMessage >> baseline: spec [
 	<baseline>
 	spec
 		baseline: 'SMPP'
-		with: [ spec repository: 'github://moiji-mobile/smpp-codec:v1/mc' ].
+		with: [ spec repository: 'github://moiji-mobile/smpp-codec:v2/mc' ].
 
 	spec package: 'ShortMessage' with: [ spec requires: #( 'SMPP' ) ].
 
